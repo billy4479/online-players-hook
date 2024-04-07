@@ -3,15 +3,14 @@
 	"id": "online-players-hook",
 	"version": "${version}",
 	"name": "Online Players Hook",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Notify a server about online players",
 	"authors": [
-		"Me!"
+		"billy4479"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/billy4479/online-players-hook"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/online-players-hook/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -35,7 +34,5 @@
 		"java": ">=17",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }

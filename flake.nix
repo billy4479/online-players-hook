@@ -16,7 +16,7 @@
         packages = with pkgs; [
         ];
         nativeBuildInputs = with pkgs; [
-          jdk
+          jdk21
           gradle
         ];
       };
